@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Solicitud de Justificación de Ausencia (Parlamento Juvenil)</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Incluir Lucide Icons para un diseño más moderno y lúdico -->
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+
+        body {
+
+            font-family: 'Inter', sans-serif;
+
+            background-color: #e3f2fd; /* Fondo Azul Claro, sugiere tranquilidad */
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: flex-start;
+
+            min-height: 100vh;
+
+            padding: 2.5rem 1rem;
+
+        }
+
+        .card {
+
+            max-width: 900px;
+
+            width: 100%;
+
+            background-color: white;
+
+            border-radius: 2rem;
+
+            box-shadow: 0 15px 35px -10px rgba(30, 136, 229, 0.4), 0 5px 15px -5px rgba(0, 0, 0, 0.08);
+
+            padding: 3rem;
+
+            border-top: 10px solid #1E88E5; /* Azul Fuerte: Confianza y Seriedad */
+
+        }
+
+        .section-title {
+
+            color: #1E88E5; 
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 0.75rem;
+
+            padding-bottom: 0.5rem;
+
+            margin-bottom: 1.5rem;
+
+            font-weight: 800;
+
+            font-size: 1.75rem;
+
+        }
+
+        .toggle-btn {
+
+            background-color: #00b894; /* Color de crecimiento/éxito para el botón */
+
+            transition: all 0.3s ease;
+
+            box-shadow: 0 4px #00967d;
+
+            transform: translateY(-2px);
+
+        }
+
+        .toggle-btn:hover {
+
+            background-color: #00d6ae;
+
+            box-shadow: 0 2px #00967d;
+
+            transform: translateY(0);
+
+        }
+
+        .proposal-card {
+
+            transition: all 0.5s ease-in-out;
+
+            border-left: 5px solid #1E88E5; /* Azul: Seriedad */
+
+        }
+
+        .anexo-btn {
+
+            background-color: #FF9800;
+
+            transition: all 0.3s ease;
+
+            box-shadow: 0 4px #E68900;
+
+            transform: translateY(-2px);
+
+        }
+
+        .anexo-btn:hover {
+
+            background-color: #ffa726;
+
+            box-shadow: 0 2px #E68900;
+
+            transform: translateY(0);
+
+        }
+
+        /* Estilo para el botón PDF */
+
+        .pdf-btn {
+
+            background-color: #D32F2F; /* Rojo Oscuro, color de PDF */
+
+            transition: all 0.3s ease;
+
+            box-shadow: 0 4px #B71C1C;
+
+            transform: translateY(-2px);
+
+        }
+
+        .pdf-btn:hover {
+
+            background-color: #E53935;
+
+            box-shadow: 0 2px #B71C1C;
+
+            transform: translateY(0);
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="card">
+
+        <!-- Encabezado y Contexto (Humanizado) -->
+
+        <header class="text-center mb-10">
+
+            <h1 class="text-4xl font-extrabold text-gray-900 mb-1">Solicitud de Justificación y Propuesta de Compensación</h1>
+
+            <p class="text-xl text-gray-500">
+
+                Carl Rogers: La Prepa donde puedo ser yo mismo | Un paso gigante hacia mi <strong class="text-gray-900 font-extrabold">Autorrealización</strong>
+
+            </p>
+
+            <div class="mt-6 p-4 bg-blue-50 rounded-xl border border-blue-200">
+
+                <p class="text-lg font-bold text-blue-700 flex justify-center items-center gap-2">
+
+                    <i data-lucide="calendar-check" class="w-6 h-6"></i>
+
+                    Conflicto de Fechas: Parlamento Juvenil Centro Norte (PJI)
+
+                </p>
+
+                <p class="text-sm text-blue-600 mt-1">
+
+                    <strong class="font-bold text-gray-800">Fecha del Conflicto:</strong> 5 de diciembre (Coincide con la Feria de Humanidades)
+
+                </p>
+
+            </div>
+
+        </header>
+
+
+
+        <!-- Solicitud y Exposición del Contexto (Impersonal) -->
+
+        <section class="mb-10">
+
+            <h2 class="section-title">
+
+                <i data-lucide="graduation-cap" class="w-7 h-7"></i>
+
+                1. Objeto y Contexto de la Solicitud
+
+            </h2>
+
+            
+
+            <p class="text-gray-700 mb-4 font-extrabold text-lg p-2 rounded-lg bg-yellow-50 border-l-4 border-yellow-400">
+
+                Solicitante: <span class="text-blue-700">Genaro Zavala</span>.
+
+            </p>
+
+
+
+            <!-- Declaración de Propósito Impersonal -->
+
+            <p class="text-gray-700 mb-4 p-3 bg-gray-100 rounded-lg border-l-4 border-gray-400">
+
+                Mi objetivo al presentar el presente recurso es solicitar justificación de la ausencia para el día <strong class="font-bold">5 de diciembre</strong>, fecha que coincide con la Feria de Humanidades. La solicitud se fundamenta en mi fundamental participación como <strong class="font-bold text-gray-900">Director de Enlace Universitario de Política Juvenil Internacional (PJI) y Senador Juvenil en el parlamento Juvenil Region Centro-Norte</strong>.
+
+            </p>
+
+
+
+            <!-- Oportunidad Única (Naranja/Dorado: Valor) - Reforzado -->
+
+            <p class="text-gray-700 mb-6 p-4 bg-orange-50 rounded-xl border-l-4 border-[#FF9800] font-semibold">
+
+                Para mi, la participación como <span class="font-bold">Director de Enlace Universitario de PJI y Senador Juvenil</span> en el Parlamento Centro Norte significa mucho y representa años de esfuerzo y preparación para convertirme en una de las personas con el honor de participar en este tipo de actividades. Esta actividad es una <strong class="font-extrabold text-gray-900">Experiencia de Vida</strong> que permite aplicar los valores de <strong class="font-extrabold text-gray-900">liderazgo, ética y autorrealización</strong> promovidos en esta institución.
+
+            </p>
+
+            <p class="text-gray-700">
+
+                Esta experiencia es necesaria para validar conocimientos en un escenario real y formal.
+
+            </p>
+
+        </section>
+
+
+
+        <!-- NUEVA SECCIÓN: Misión, Visión y Funciones Detalladas -->
+
+        <section class="mb-10">
+
+            <h2 class="section-title">
+
+                <i data-lucide="gavel" class="w-7 h-7"></i>
+
+                2. Política Juvenil Internacional (PJI)
+
+            </h2>
+
+
+
+            <!-- Definición clara de PJI (tomada del PDF) -->
+
+            <div class="p-4 bg-indigo-50 rounded-xl border-l-4 border-indigo-500 shadow-md mb-6">
+
+                <h3 class="font-bold text-lg text-indigo-700 mb-2 flex items-center gap-2">
+
+                    <i data-lucide="shield-check" class="w-5 h-5"></i>
+
+                    PJI: Mecanismo de Participación Ciudadana Formal
+
+                </h3>
+
+                <p class="text-sm text-gray-700">
+
+                    PJI es una organización que funciona como un <strong class="font-bold text-gray-900">mecanismo democrático y de participación ciudadana formal</strong> donde los jóvenes pueden influir activamente en la vida política del país, obteniendo voz y eco en decisiones de carácter público a nivel nacional e internacional.
+
+                </p>
+
+            </div>
+
+            
+
+            <!-- Misión y Visión -->
+
+            <div class="grid md:grid-cols-2 gap-4 mb-6">
+
+                <div class="p-4 bg-green-50 rounded-xl border-l-4 border-[#00b894] shadow-md">
+
+                    <h3 class="font-bold text-lg text-[#00b894] mb-2 flex items-center gap-2">
+
+                        <i data-lucide="send" class="w-5 h-5"></i>
+
+                        Misión de PJI
+
+                    </h3>
+
+                    <p class="text-sm text-gray-700">
+
+                        Nuestra misión es empoderar a los jóvenes de todo el mundo para que se involucren en la política y trabajen juntos para crear un futuro más justo e igualitario para todos. Nos esforzamos por fomentar la participación cívica, promover los derechos humanos y avanzar en políticas y programas que beneficien a la juventud global.
+
+                    </p>
+
+                </div>
+
+                <div class="p-4 bg-blue-50 rounded-xl border-l-4 border-blue-500 shadow-md">
+
+                    <h3 class="font-bold text-lg text-blue-700 mb-2 flex items-center gap-2">
+
+                        <i data-lucide="star" class="w-5 h-5"></i>
+
+                        Visión de PJI
+
+                    </h3>
+
+                    <p class="text-sm text-gray-700">
+
+                        Nuestra visión es un mundo en el que los jóvenes son líderes influyentes, tomando decisiones y liderando cambios significativos en la política mundial. Soñamos con un futuro en el que la juventud tenga igualdad de oportunidades y acceso a la educación, los derechos humanos y la democracia.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Bloque de Proyección Internacional -->
+
+            <div class="p-4 bg-indigo-100 rounded-xl border-l-4 border-indigo-600 shadow-lg mb-6">
+
+                <h3 class="font-bold text-lg text-indigo-800 mb-2 flex items-center gap-2">
+
+                    <i data-lucide="globe" class="w-5 h-5"></i>
+
+                    Proyección y Alcance Internacional de PJI
+
+                </h3>
+
+                <p class="text-sm text-gray-700 mb-3">
+
+                    Política Juvenil Internacional es una organización con <strong class="font-bold text-gray-900">presencia activa en 7 países</strong>, lo que subraya la relevancia global de sus actividades y la formación de sus líderes:
+
+                </p>
+
+                <p class="text-xs text-gray-700 mb-3 italic font-semibold">
+
+                    (Guatemala, Colombia, Bolivia, Italia, Reino Unido, Turquía y Senegal)
+
+                </p>
+
+                <div class="p-3 bg-red-50 rounded-lg border border-red-300">
+
+                    <p class="text-sm font-bold text-red-700 flex items-center gap-2">
+
+                        <i data-lucide="zap" class="w-4 h-4"></i>
+
+                        Evento Clave de Noviembre
+
+                    </p>
+
+                    <p class="text-xs text-gray-700 mt-1">
+
+                        Este mes de noviembre, PJI albergará un evento internacional crucial con la asistencia confirmada de miembros de <strong class="font-bold">Guatemala y Colombia</strong>, reforzando nuestro papel como Director de Enlace para estas alianzas y la importancia del evento.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Fin de Bloque de Proyección Internacional -->
+
+
+
+
+
+            <!-- Funciones Específicas del Solicitante (ACTUALIZADO) -->
+
+            <div class="p-5 border border-red-300 rounded-xl bg-red-50 shadow-lg mb-6">
+
+                <h3 class="font-bold text-xl text-red-700 mb-3 flex items-center gap-2">
+
+                    <i data-lucide="briefcase" class="w-5 h-5"></i>
+
+                    Funciones del Director de Enlace Universitario (Genaro Zavala)
+
+                </h3>
+
+                <p class="text-md text-gray-700 mb-3">
+
+                    El rol actual se enfoca en la <strong class="font-bold">ejecución externa y la vinculación interinstitucional</strong>, tendiendo puentes entre la organización, el sector educativo (preparatorias y universidades) y otros actores clave en el ámbito cívico.
+
+                </p>
+
+                <ul class="list-disc list-inside text-sm text-gray-700 space-y-2">
+
+                    <li><strong class="font-semibold">Coordinación de Embajadores de Campus:</strong> Designar, formar y supervisar a líderes estudiantiles que representan a PJI y facilitan la interacción con la comunidad académica.</li>
+
+                    <li><strong class="font-semibold">Organización de Actividades en Campus:</strong> Planificar y ejecutar eventos, foros, talleres y mesas de debate directamente en las instalaciones educativas para promover la participación cívica.</li>
+
+                    <li><strong class="font-semibold">Relaciones Interinstitucionales Clave:</strong> Mantener alianzas formales con preparatorias, universidades y actores gubernamentales para asegurar el acceso a recursos y el éxito de los proyectos de impacto social.</li>
+
+                    <li><strong class="font-semibold">Diseño y Ejecución de Proyectos Estratégicos:</strong> Implementar programas de alto nivel como "Red Nacional de Diálogos Juveniles" y "Jóvenes Transformadores" que validan los conocimientos en un escenario real.</li>
+
+                </ul>
+
+            </div>
+
+            
+
+            <!-- Bloque: Proyectos Liderados como Director de Enlace Universitario -->
+
+            <div class="p-5 border border-indigo-300 rounded-xl bg-indigo-500/10 shadow-lg">
+
+                <h3 class="font-bold text-xl text-indigo-700 mb-3 flex items-center gap-2">
+
+                    <i data-lucide="rocket" class="w-5 h-5"></i>
+
+                    Proyectos de Alto Nivel Liderados por el Solicitante
+
+                </h3>
+
+                <p class="text-md text-gray-700 mb-4">
+
+                    La Dirección de Enlace Universitario ha gestionado iniciativas estratégicas que demuestran <strong class="font-bold">liderazgo, negociación y capacidad de ejecución interinstitucional</strong>:
+
+                </p>
+
+
+
+                <!-- Proyecto 1: Jóvenes Transformadores & Querétaro Activo -->
+
+                <div class="p-3 bg-yellow-50 rounded-lg border-l-4 border-yellow-400 mb-3">
+
+                    <p class="text-sm font-bold text-gray-800">Jóvenes Transformadores & Querétaro Activo (Piloto)</p>
+
+                    <p class="text-xs text-gray-600">
+
+                        Programas piloto de inmersión para el diseño e implementación de políticas públicas juveniles en el estado.
+
+                    </p>
+
+                    <p class="text-xs font-semibold text-blue-700 mt-1">
+
+                        Colaboración intersecretarial con: <strong class="font-bold">Secretaría de Cultura, Secretaría de Juventud y Secretaría de Educación del Estado.</strong>
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- Proyecto 2: Red Nacional de Diálogos Juveniles -->
+
+                <div class="p-3 bg-green-50 rounded-lg border-l-4 border-green-400">
+
+                    <p class="text-sm font-bold text-gray-800">Red Nacional de Diálogos Juveniles</p>
+
+                    <p class="text-xs text-gray-600">
+
+                        Iniciativa nacional para conectar voces estudiantiles y generar propuestas de política pública desde las universidades.
+
+                    </p>
+
+                    <p class="text-xs font-semibold text-blue-700 mt-1">
+
+                        Alianzas estratégicas con: <strong class="font-bold">Secretaría de Educación, SELIDER, UNAM, New Element University, Life of Pachamama, Unión de Minusválidos de Querétaro I.A.P., INESLE.</strong>
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+
+
+        <!-- Importancia de la Oportunidad (Estructura de Columnas) - AHORA SECCIÓN 3 -->
+
+        <section class="mb-10">
+
+            <h2 class="section-title">
+
+                <i data-lucide="heart-handshake" class="w-7 h-7"></i>
+
+                3. Justificación Humanista y Beneficio Institucional
+
+            </h2>
+
+            <div class="grid md:grid-cols-2 gap-6">
+
+                <!-- Columna Carl Rogers (Teal/Green: Crecimiento) -->
+
+                <div class="p-5 border border-[#00b894] rounded-xl bg-[#e6fff9] shadow-lg">
+
+                    <h3 class="font-bold text-xl text-[#00b894] mb-3 flex items-center gap-2">
+
+                        <i data-lucide="leaf" class="w-5 h-5"></i>
+
+                        Alineación con Filosofía Carl Rogers
+
+                    </h3>
+
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-2">
+
+                        <li><strong class="font-semibold">Fomento de la Autonomía:</strong> El alumno ejerce la toma de decisiones responsable sobre su crecimiento.</li>
+
+                        <li><strong class="font-semibold">Valores en Acción:</strong> Es la forma más pura de practicar la ética y la responsabilidad social.</li>
+
+                        <li><strong class="font-semibold">Crecimiento Integral:</strong> La experiencia transforma y alinea con el aprendizaje vivencial promovido por la institución.</li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Columna PJI (Blue: Seriedad) -->
+
+                <div class="p-5 border border-blue-200 rounded-xl bg-blue-50 shadow-lg">
+
+                    <h3 class="font-bold text-xl text-blue-800 mb-3 flex items-center gap-2">
+
+                        <i data-lucide="award" class="w-5 h-5"></i>
+
+                        Beneficio para la Prepa
+
+                    </h3>
+
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-2">
+
+                        <li><strong class="font-semibold">Red de Contactos de Valor:</strong> El alumno obtiene acceso a una red profesional de líderes juveniles y académicos a nivel nacional e internacional, enriqueciendo el *networking* de la Prepa.</li>
+
+                        <li><strong class="font-semibold">Actualización Curricular:</strong> Obtención de retroalimentación sobre las necesidades y temas de debate actuales a nivel juvenil, aplicable en las asignaturas de Humanidades y Formación Cívica.</li>
+
+                        <li><strong class="font-semibold">Caso de Éxito (Branding):</strong> El liderazgo del alumno en PJI y su participación en el Parlamento enriquece la imagen de la Prepa como un centro de formación de líderes cívicos de alto impacto.</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Propuesta de Compensación Interactiva (Lúdico) - AHORA SECCIÓN 4 -->
+
+        <section class="mb-8">
+
+            <h2 class="section-title">
+
+                <i data-lucide="palette" class="w-7 h-7"></i>
+
+                4. Propuesta de Compensación Académica (Proyectos Realistas)
+
+            </h2>
+
+
+
+            <p class="text-gray-700 mb-4">
+
+                Considerando la importancia de la Feria, se presenta un Plan de Trabajo Especial para asegurar la calificación en Danza, Artes Plásticas y Teatro, alineado con el tema <strong class="font-extrabold text-gray-900">"Valores"</strong>:
+
+            </p>
+
+
+
+            <button onclick="togglePropuesta()" id="toggleButton" class="toggle-btn w-full p-4 text-white font-extrabold rounded-xl hover:shadow-xl transition-all shadow-xl text-lg">
+
+                <i data-lucide="eye" class="w-5 h-5 inline mr-2"></i>
+
+                VER EL PROYECTO DE COMPENSACIÓN DETALLADO Y REALISTA ▼
+
+            </button>
+
+
+
+            <div id="propuestaDetalle" class="proposal-card mt-6 rounded-2xl p-6 shadow-2xl hidden bg-white">
+
+                <p class="font-extrabold text-xl mb-4 text-gray-800">Eje central: La vivencia de Valores cívicos y éticos en la práctica política.</p>
+
+
+
+                <div class="space-y-5">
+
+                    
+
+                    <!-- Compensación Artes Plásticas (Contingencia Actualizada) -->
+
+                    <div class="p-4 bg-red-50 rounded-xl border-l-8 border-red-500 shadow-md">
+
+                        <h4 class="font-bold text-xl text-red-700 mb-2 flex items-center gap-2">
+
+                            <i data-lucide="file-text" class="w-6 h-6"></i>
+
+                            Compensación (Artes Plásticas) - <span class="text-sm font-semibold italic text-red-800">Plan de Contingencia</span>
+
+                        </h4>
+
+                        <p class="text-md text-gray-700">Propuesta de Compensación Alternativa: Elaboración de una <strong class="font-bold">Investigación Documental y Visual</strong>
+
+                        <p class="text-md text-gray-700 mt-2">Este trabajo analizará cómo el arte (muralismo, ilustración cívica, pósters) es una herramienta clave para fomentar la participación, la crítica social y la conciencia de valores en la juventud.</p>
+
+                        <p class="text-sm font-bold text-red-800 mt-2 p-1 bg-red-100 rounded">
+
+                            Esta propuesta se aplicará <strong class="underline">únicamente</strong> en caso de no poder entregar o presentar a tiempo el proyecto original (Pintura, Escultura, etc.) debido a la coincidencia de fechas.
+
+                        </p>
+
+                        <p class="text-xs italic text-gray-600 mt-1">El documento de investigación se entregará junto con la justificación conceptual.</p>
+
+                    </div>
+
+
+
+                    <!-- Compensación Teatro (ACTUALIZADO: Dos Opciones) -->
+
+                    <div class="p-4 bg-purple-50 rounded-xl border-l-8 border-purple-500 shadow-md">
+
+                        <h4 class="font-bold text-xl text-purple-700 mb-2 flex items-center gap-2">
+
+                            <i data-lucide="clipboard-list" class="w-6 h-6"></i>
+
+                            Compensación (Teatro) - <span class="text-sm font-semibold italic text-purple-800">Doble Opción de Presentación</span>
+
+                        </h4>
+
+                        <p class="text-md text-gray-700 mb-3">El profesor podrá seleccionar una de las siguientes opciones. Ambas requieren la presentación de un <strong class="font-bold">análisis oral de 10 minutos</strong> ante el profesor o grupo, abordando un dilema ético desde una Perspectiva Humanista.</p>
+
+                        
+
+                        <ul class="list-disc list-inside text-sm text-gray-700 space-y-2 ml-4">
+
+                            <li>
+
+                                <strong class="font-bold text-purple-800">Opción 1: Dilema Cívico (Parlamento Juvenil)</strong>. Análisis de un <strong class="font-bold">Dilema Ético</strong> crucial debatido durante las sesiones del Parlamento Juvenil, enfocándose en la resolución de conflictos y el impacto social.
+
+                            </li>
+
+                            <li>
+
+                                <strong class="font-bold text-purple-800">Opción 2: Dilema Artístico (Mundo del Teatro)</strong>. Análisis de un <strong class="font-bold">Dilema Ético</strong> significativo que surja en el mundo del teatro (ej. censura, apropiación cultural, integridad actoral), enfocándose en la responsabilidad artística.
+
+                            </li>
+
+                        </ul>
+
+
+
+                        <p class="text-xs italic text-gray-600 mt-3">Se evaluará la estructura del argumento, la capacidad de análisis humanista y la calidad de la exposición.</p>
+
+                    </div>
+
+
+
+                    <!-- Compensación Danza (ACTUALIZADO) -->
+
+                    <div class="p-4 bg-yellow-50 rounded-xl border-l-8 border-yellow-500 shadow-md">
+
+                        <h4 class="font-bold text-xl text-yellow-700 mb-2 flex items-center gap-2">
+
+                            <i data-lucide="bookmark" class="w-6 h-6"></i>
+
+                            Compensación (Danza)
+
+                        </h4>
+
+                        <p class="text-md text-gray-700">Diseño y entrega de una <strong class="font-bold">Investigación Documental </strong>
+
+                        <p class="text-md text-gray-700 mt-2">Este trabajo analizará cómo el movimiento (elementos de la danza) ha sido históricamente utilizado como un <strong class="font-bold">vehículo de expresión política y social</strong>, ejemplificando su uso en manifestaciones pacíficas, obras de teatro político o performance artísticas que buscan promover valores y cambios sociales (similar a lo que se realiza en el Parlamento, pero a través del lenguaje corporal).</p>
+
+                        <p class="text-xs italic text-gray-600 mt-1">Se evaluará la capacidad de análisis, la documentación de casos históricos y la relación interdisciplinaria entre el arte corporal y la influencia social.</p>
+
+                    </div>
+
+
+
+                    <!-- Reporte General -->
+
+                    <div class="p-4 bg-gray-100 rounded-xl border-l-8 border-gray-400 shadow-inner">
+
+                        <h4 class="font-bold text-xl text-gray-700 mb-2 flex items-center gap-2">
+
+                            <i data-lucide="file-text" class="w-6 h-6"></i>
+
+                            Evaluación Global (Ensayo)
+
+                        </h4>
+
+                        <p class="text-md text-gray-700">Entrega de un <strong class="font-bold">Reporte-Ensayo (mínimo 3 páginas)</strong> sobre cómo el humanismo de la Carl Rogers preparó al alumno para este rol en la política, validado con la constancia de PJI.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        
+
+        <!-- Anexo y Cierre Final (Impersonal) -->
+
+        <section class="pt-6 border-t-2 border-gray-200">
+
+            <h2 class="section-title">
+
+                <i data-lucide="link" class="w-7 h-7"></i>
+
+                5. ANEXOS: Evidencia de la Organización
+
+            </h2>
+
+            <p class="text-center text-gray-700 mb-4">
+
+                Se adjuntan dos recursos para la verificación de la organización y la propuesta: la página web oficial y el documento de Misión y Visión que avala la seriedad de la institución.
+
+            </p>
+
+            <!-- BOTONES DE ENLACE -->
+
+            <div class="flex flex-col md:flex-row justify-center gap-4 mb-10">
+
+                
+
+                <!-- Botón 1: Enlace a la Web (Corregido) -->
+
+                <a href="https://pjimx.org/" target="_blank" class="anexo-btn flex-1 flex items-center justify-center p-4 text-white font-extrabold rounded-xl hover:shadow-xl transition-all shadow-xl text-lg">
+
+                    <i data-lucide="external-link" class="w-5 h-5 inline mr-2"></i>
+
+                    WEB OFICIAL DE PJI
+
+                </a>
+
+
+
+                <!-- Botón 2: Enlace al PDF (Nuevo Anexo) -->
+
+                <!-- Utilizando el contentFetchId para generar el enlace al documento PDF subido -->
+
+                <a href="uploaded:Misión y Visión  (1).pdf" target="_blank" class="pdf-btn flex-1 flex items-center justify-center p-4 text-white font-extrabold rounded-xl hover:shadow-xl transition-all shadow-xl text-lg">
+
+                    <i data-lucide="file-text" class="w-5 h-5 inline mr-2"></i>
+
+                    DOCUMENTO MISIÓN Y VISIÓN (PDF)
+
+                </a>
+
+
+
+            </div>
+
+            
+
+            <!-- CIERRE IMPERSONAL -->
+
+            <div class="text-center pt-4">
+
+                <p class="text-gray-700 mb-6 font-medium">
+
+                    La presente solicitud refleja los valores cultivados en la institución. El Plan de Compensación propuesto no solo cumple, sino que enriquece el tema de <strong class="font-extrabold text-gray-900">Valores</strong> con una experiencia cívica tangible.
+
+                </p>
+
+                <p class="font-extrabold text-2xl text-gray-900 mb-2">
+
+                    Se espera la consideración de esta experiencia como un elemento de autorrealización alineado con los principios formativos de la Prepa Carl Rogers.
+
+                </p>
+
+                <i data-lucide="heart" class="w-8 h-8 text-[#FF9800] mx-auto mt-4"></i>
+
+            </div>
+
+        </section>
+
+
+
+        <script>
+
+            // Inicializa los iconos de Lucide
+
+            lucide.createIcons();
+
+
+
+            function togglePropuesta() {
+
+                const detalle = document.getElementById('propuestaDetalle');
+
+                const button = document.getElementById('toggleButton');
+
+                const isHidden = detalle.classList.contains('hidden');
+
+
+
+                if (isHidden) {
+
+                    detalle.classList.remove('hidden');
+
+                    // Usar un color más oscuro cuando está abierto para mayor contraste
+
+                    button.classList.add('bg-blue-800', 'box-shadow: 0 4px #005A9C');
+
+                    button.classList.remove('bg-[#00b894]', 'box-shadow: 0 4px #00967d');
+
+                    button.innerHTML = '<i data-lucide="eye-off" class="w-5 h-5 inline mr-2"></i> OCULTAR EL PROYECTO DE COMPENSACIÓN DETALLADO ▲';
+
+                } else {
+
+                    detalle.classList.add('hidden');
+
+                    // Regresar al color primario cuando está cerrado
+
+                    button.classList.add('bg-[#00b894]', 'box-shadow: 0 4px #00967d');
+
+                    button.classList.remove('bg-blue-800', 'box-shadow: 0 4px #005A9C');
+
+                    button.innerHTML = '<i data-lucide="eye" class="w-5 h-5 inline mr-2"></i> VER EL PROYECTO DE COMPENSACIÓN DETALLADO Y REALISTA ▼';
+
+                }
+
+                lucide.createIcons(); // Vuelve a inicializar iconos después del cambio de contenido
+
+            }
+
+        </script>
+
+    </div>
+
+</body>
+
+</html>
